@@ -41,7 +41,6 @@ inquirer.prompt([{
            name: 'specialchar',
            message: 'Do you want a specialcharacter in password?',
            type: 'confirm',
-           choices: ['PHP', 'JS','Python','Ruby','React'],
            validate: (value) => {
              if (!value.length) {
                return 'Please choose option yes or no'
